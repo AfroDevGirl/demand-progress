@@ -1,4 +1,4 @@
-import React, { Component, PropTypes } from 'react';
+import React, { Component } from 'react';
 
 class CheckboxCommittee extends Component {
   state = {
@@ -34,9 +34,9 @@ class CheckboxCommittee extends Component {
   }
 }
 
-CheckboxCommittee.propTypes = {
-  label: PropTypes.string,
-  handleCheckboxCommitteeChange: PropTypes.func
-}
+// CheckboxCommittee.propTypes = {
+//   label: PropTypes.string,
+//   handleCheckboxCommitteeChange: PropTypes.func
+// }
 
 export default CheckboxCommittee;
